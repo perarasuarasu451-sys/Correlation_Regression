@@ -17,8 +17,21 @@ If y represents the dependent variable and x the independent variable, this rela
 
 # Procedure :
 
-![image](https://user-images.githubusercontent.com/104613195/168225866-ac8f6610-bdc3-4ac2-a24e-2b24ba08e189.png)
-
+1. Compute ΣΧ, ΣΥ, ΣΧ2, ΣΥ2 and ΣΧΥ.
+2. Calculate correlation coefficient by
+p=
+Ν ΣΧ2 - (ΣΧ)2
+3. Compute X = " and y = 2X
+4. Calculate regression coefficient by
+byx
+Ν ΣΧΥ -ΣΣΥ
+Ν ΣΥ2 - (ΣΥ)2
+7
+Ν ΣΧΥ-ΣΧΣΥ
+5. The regression line Y on X is given by
+Ν ΣΧ2 - (ΣΧ)2
+Y= byx(X-X) +Ī
+6. Plot the given data and the Regression line in a graph.
 # Program :
 ```
 import numpy as np
